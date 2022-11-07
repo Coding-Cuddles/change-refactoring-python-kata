@@ -1,7 +1,7 @@
 # Change refactoring kata in Python
 ## Overview
 
-This is a "change" refactoring kata Python 3.
+This is a "change" refactoring kata in Python 3.
 
 ## Usage
 

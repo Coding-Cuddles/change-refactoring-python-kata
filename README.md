@@ -10,5 +10,5 @@ and it will handle all dependencies automatically.
 
 ### Prerequisites
 
-* [Python 3.8+](https://cmake.org)
+* [Python 3](https://www.python.org)
 * [pytest](https://pytest.org)

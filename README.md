@@ -1,8 +1,7 @@
-# Bootstrap for Python katas
-
+# Change refactoring kata in Python
 ## Overview
 
-This is a bootstrap repository for clean code katas in Python 3.
+This is a "change" refactoring kata Python 3.
 
 ## Usage
 

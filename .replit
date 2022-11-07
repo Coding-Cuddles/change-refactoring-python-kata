@@ -1,9 +1,6 @@
-run = "pytest test_something.py"
-
+run = "pytest test_change.py"
 language = "python3"
-# A list of globs that specify which files and directories should
-# be hidden in the workspace.
-hidden = [".gitignore", "**/__pycache__", "**/*.pyc"]
+hidden = [".gitignore", "**/__pycache__", "**/.pytest_cache", "**/venv", "**/.config", "**/*.pyc"]
 
 [nix]
 channel = "stable-21_11"
@@ -21,7 +18,7 @@ support = true
 
 [debugger.interactive]
 transport = "localhost:0"
-startCommand = ["dap-python", "test_something.py"]
+startCommand = ["dap-python", "test_change.py"]
 
 [debugger.interactive.integratedAdapter]
 dapTcpAddress = "localhost:0"
@@ -51,3 +48,23 @@ type = "request"
 [debugger.interactive.launchMessage.arguments]
 
 [debugger.interactive.launchMessage.arguments.logging]
+
+[env]
+VIRTUAL_ENV = "/home/runner/${REPL_SLUG}/venv"
+PATH = "${VIRTUAL_ENV}/bin"
+PYTHONPATH = "${VIRTUAL_ENV}/lib/python3.10/site-packages"
+REPLIT_POETRY_PYPI_REPOSITORY = "https://package-proxy.replit.com/pypi/"
+MPLBACKEND = "TkAgg"
+POETRY_CACHE_DIR = "${HOME}/${REPL_SLUG}/.cache/pypoetry"
+
+[packager]
+language = "python3"
+ignoredPackages = ["unit_tests"]
+
+[packager.features]
+enabledForHosting = false
+packageSearch = true
+guessImports = true
+
+[unitTest]
+language = "python3"

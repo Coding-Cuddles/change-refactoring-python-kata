@@ -1,7 +1,7 @@
 run = "pytest test_change.py"
 entrypoint = "change.py"
 language = "python3"
-hidden = [".gitignore", "**/__pycache__", "**/.pytest_cache", "**/venv", "**/.config", "**/*.pyc"]
+hidden = ["LICENSE", ".gitignore", "**/__pycache__", "**/.pytest_cache", "**/venv", "**/.config", "**/*.pyc"]
 
 [nix]
 channel = "stable-21_11"

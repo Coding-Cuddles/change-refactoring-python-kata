@@ -21,4 +21,5 @@ class ChangeItForMe:
         return [tender, n, dd, q, d]
 
     def calculate(self, amount):
+        # Calculate transaction
         return self.transact(0, amount)

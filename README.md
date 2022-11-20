@@ -1,6 +1,6 @@
 # Change refactoring kata in Python
 
-[![Run on Replit](https://replit.com/badge/github/megabyde/change-refactoring-python-kata)](https://replit.com/new/github/megabyde/change-refactoring-python-kata)
+[![Run on Replit](https://replit.com/badge/github/Coding-Cuddles/change-refactoring-python-kata)](https://replit.com/new/github/Coding-Cuddles/change-refactoring-python-kata)
 
 ## Overview
 

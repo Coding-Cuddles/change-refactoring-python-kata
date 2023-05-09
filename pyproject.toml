@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "change-refactoring-python-kata"
-version = "1.0.0"
 description = "Change refactoring kata in Python"
-authors = ["Yury Bayda <yury@bayda.pro>"]
+version = "1.0.0"
+authors = ["Coding Cuddles"]
 
 [tool.poetry.dependencies]
 python = ">=3.8.0"

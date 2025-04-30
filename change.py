@@ -1,6 +1,6 @@
 class ChangeItForMe:
-
-    def transact(self, cost, tender):
+    @staticmethod
+    def transact(cost, tender):
         tender = tender - cost
 
         d = -1

@@ -2,7 +2,6 @@ from change import ChangeItForMe
 
 
 class TestChange:
-
     def test_calculate(self):
         changer = ChangeItForMe()
 
